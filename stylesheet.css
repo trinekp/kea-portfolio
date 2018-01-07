@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*********** splash ***********/
+
+#splash {
+    background-image: url(img/splashbillede.jpg);
+    width: 85vw;
+    height: 45vw;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+}
+
+.information {
+    background-color: mistyrose;
+    opacity: 0.6;
+    width: 38%;
+    height: 70%;
+    border-radius: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 24%;
+    right: 45%;
+}
+
+#splash p {
+    position: absolute;
+    top: 32%;
+    padding: 10px;
+    font-size: 1.8vw;
+}
+
+/*********** navigation ***********/
+
+header {
+    width: 100vw;
+    padding: 1em;
+}
+
+header nav {
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    margin: 2vw 7vw 2vw 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 2vw;
+}
+
+header nav a:hover {
+    color: lightgray;
+}
+
+
+header .navn {
+    font-family: 'Cabin Sketch', cursive;
+    text-align: left;
+    position: absolute;
+    font-size: 2.5vw;
+    margin: 1vw 5vw 5vw 5vw;
+}
+
+
+/*********** typografi ***********/
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 25px;
+    margin-left: 100px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*********** om mig ***********/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 70px;
+    margin: 0px 270px;
+}
+
+.column_cv {
+    text-align: center;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.column_cv a {
+    text-decoration: none;
+    background-color: #d4cbcb;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+}
+
+.column_cv a:hover {
+    color: darkgray;
+}
+
+
+/*********** portfolio ***********/
+
+#portfolio .sectionwrapper {
+    max-width: 899px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#portfolio .sectionwrapper div {
+    width: 220px;
+    height: 160px;
+    margin: 2vw;
+}
+
+
+#portfolio h3 {
+    margin-top: 85px;
+    color: white;
+}
+
+#portfolio div:hover {
+    filter: grayscale(0%);
+
+}
+
+
+.box1 {
+    background-image: url(img/desktop_retina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+
+}
+
+
+.box2 {
+    background-image: url(img/ccm_photo2.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+
+.box3 {
+    background-image: url(img/cph_dox.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+
+.box4 {
+    background-image: url(img/ccm_photo2.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+
+.box5 {
+    background-image: url(img/animation.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+
+.box6 {
+    background-image: url(img/sex_samfund.jpg);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+.box7 {
+    background-image: url(img/kea_friday2.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+.box8 {
+    background-image: url(img/republikken.png);
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    filter: grayscale(80%);
+}
+
+
+/*********** kontakt ***********/
+
+#kontakt h1 {
+    margin-top: 70px;
+}
+
+#kontakt p {
+    margin-bottom: 70px;
+
+}
+
+.column_info {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin-top: 100px;
+}
+
+.column_info p {
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+.column_kontakt {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+
+
+/*********** footer ***********/
+
+footer {
+    background-color: #d4cbcb;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 20px;
+    border-radius: 1000px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    color: darkgray;
+    background-color: beige;
+
+}
+
+
+.fa-linkedin {
+    color: lightgray;
+    background-color: darkgrey;
+}
+
+
+/*********** html.1 ***********/
+
+.overskrift h1 {
+    background-color: #d4cbcb;
+    padding-bottom: 25px;
+    font-size: 3vw;
+}
+
+
+.column_link {
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.column_link a {
+    color: black;
+    font-size: 1.2em;
+
+}
+
+.column_text img {
+    width: 40%;
+    margin: 30px 62px;
+}
+
+
+.column_text p {
+    margin: 0 100px;
+    text-align: left;
+}
+
+
+
+/*********** html.2 ***********/
+
+.column_video video {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/*********** html.7 ***********/
+
+iframe {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+/*********** meadia ***********/
+
+@media screen and (min-width: 375px) and (max-width:768px) {
+    header a {
+        width: 50vw;
+        font-size: 0.6em;
+    }
+
+    header .navn {
+        font-size: 0.7em;
+        margin-top: 12px;
+
+    }
+
+    .column_video video {
+        width: 100vw;
+        padding-left: 0;
+    }
+
+    .column_text p {
+        margin: 30px;
+    }
+
+    .column_link a {
+        margin: -70px;
+    }
+
+    footer p {
+        font-size: 0.8em;
+
+    }
+
+    h2 {
+        margin-left: 30px;
+    }
+
+    #kontakt .column {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 900px) {
+    #om_mig .column {
+        margin: 10px
+    }
+}
